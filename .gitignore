@@ -19,6 +19,11 @@ chromedriver*
 geckodriver*
 edgedriver*
 
+# ===== CI / Secrets =====
+.env
+*.key
+*.pem
+
 # ===== OS =====
 .DS_Store
 Thumbs.db
